@@ -18,7 +18,7 @@
 	}
 
 
-	function average(){
+	function average(){/* fait une moyenne du nombre */
 	let stock = 0;
     let sum = 0;
     for(let i =0; i < arr.length; i++){
@@ -29,11 +29,11 @@
 
 	}
 
-	function min(){
+	function min(){/* montre le plus petit chiffre */
     return Math.min(...arr);
 	}
 
-		function max(){
+		function max(){/* montre le plus granc chiffre */
     return Math.max(...arr);
 	}
     console.log(multiRand(), average(), min(), max());
