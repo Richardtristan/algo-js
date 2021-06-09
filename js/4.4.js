@@ -33,7 +33,7 @@
     return Math.min(...arr);
 	}
 
-		function max(){/* montre le plus granc chiffre */
+		function max(){/* montre le plus grand chiffre */
     return Math.max(...arr);
 	}
     console.log(multiRand(), average(), min(), max());
