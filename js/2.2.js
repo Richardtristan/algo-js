@@ -8,6 +8,8 @@ let current = Number(readlineSync.question('et choisis un chiffre au hazard?'));
 
 if (current >= min && current <= max){
 	console.log(current);
-	else
-		console.log(ton chiffre au hazard se situe pas entre le minimum et le maximum);
+	}
+
+	if (min > max ){
+		console.log("ton chiffre au hazard se situe pas entre le minimum et le maximum");
 	}
