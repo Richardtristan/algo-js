@@ -6,7 +6,7 @@ function rand10() {
 
 let arr =[];
 let i =0;
-	function multiRand(n){
+	function multiRand(n){/* ca injet n fois rand10 dans un tableau */
 		n = Number(readlineSync.question('un nombre'));
 		while (i<n){
          arr.push(rand10())
